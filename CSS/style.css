@@ -26,14 +26,17 @@ body {
     
         color: #2196F3;
 }
-.header-info {
-
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+.logo-studio {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
     
-        color: var(--primary-text-color--);
+        color: #000000;
+}
+.header-list .header-info.current {
+    color: #2196F3;
 }
 .header-info:hover,
 .header-info:focus,
@@ -56,7 +59,7 @@ body {
     background: #2F303A;
 }
 .hero-text {
-    
+        
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -76,7 +79,7 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-.hero-bt {
+.bt-text {
     font-family: inherit;
         font-weight: 700;
         font-size: 16px;
@@ -87,6 +90,10 @@ body {
         letter-spacing: 0.06em;
         cursor: pointer;
         color: var(--primary-bg-color--);
+}
+.hero-bt {
+    
+        background: #188CE8;
 }
 .hero-title {
         font-weight: 700;
@@ -112,6 +119,12 @@ body {
         letter-spacing: 0.03em;
     
         color: var(--primary-text-color--);
+}
+.about {
+    background: #F5F4FA;
+}
+.about-item {
+    background: #FFFFFF;
 }
 
 .about-title {
@@ -152,6 +165,17 @@ body {
     
         color: #2196F3;
 }
+.studio {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
 .footer {
     background: #2F303A;
 }
@@ -166,7 +190,6 @@ body {
         color: #FFFFFF;
 }
 .footer-info {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -179,9 +202,17 @@ body {
 .footer-info:focus {
     color: var(--accent-text-color--);
 }
+.bt-text-portfolio {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color--);
+}
 .portfolio-bt {
         font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -189,6 +220,10 @@ body {
         letter-spacing: 0.03em;
         cursor: pointer;
         color: #212121;
+}
+.bt-text-portfolio:hover,
+.bt-text-portfolio:focus {
+    color:#FFFFFF
 }
 .portfolio-bt:hover,
 .portfolio-bt:focus {
